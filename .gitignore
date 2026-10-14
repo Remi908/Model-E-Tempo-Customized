@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and local environment
+.env
+.env.*
+.netrc
+
+# Model weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+vae_checkpoints/
+
+# Audio, MIDI, and dataset arrays
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.mid
+*.midi
+*.npz
+*.npy
+data/
+datasets/
+
+# Training outputs
+wandb/
+lightning_logs/
+logs/
+demos/
+outputs/
+*.log
+events.out.tfevents.*
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
